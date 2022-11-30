@@ -1,3 +1,56 @@
+
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+*/
+
+:root{
+  --color-1: #F7FFF7;
+  --color-2: #343434;
+  --color-3: #2F3061;
+  --color-4: #FFE66D;
+  --color-5: #A1C6D7;
+}
+
+/*Global styles
+----------------------------------------------*/
+body{
+  color: var(--color-2);
+}
 img {
   width: 300px;
+}
+
+
+/*Profile
+----------------------------------------------*/
+header{
+  background-color: var(--color-3);
+  color: var(--color-1);
+}
+
+
+/*Projects
+----------------------------------------------*/
+.projects{
+  background: var(--color-1);
+}
+
+
+/*Work Experience
+----------------------------------------------*/
+.work-experience{
+  background: var(--color-5);
+}
+
+
+/*Education
+----------------------------------------------*/
+
+
+
+/*Contact
+----------------------------------------------*/
+footer{
+  background-color: var(--color-2);
 }
